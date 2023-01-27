@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/*---------- header------------- */
+header{
+    padding: 15px 190px;
+    font-size: 16px;
+    background-color: #FFAEAE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/* ------indexpage--------- */
+.imgindex{
+    width: 100px;
+}
+
+header h1{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999999999px;
+}
+header h1 a{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+header ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul a{
+    color: #515654;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+header ul a:hover{
+    color: #56BAEC;
+    text-decoration: none;
+}
+.socialcontainer{
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    top: 118px;
+}
+.socialcontainer div{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.socialcontainer div a{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.socialcontainer .facebook{
+    background-image: url(../img/facebook.png);
+}
+
+.socialcontainer .instagram{
+    background-image: url(../img/instagram.png);
+}
+.indexmain{
+    background-image: url(../img/Graphic-of-Women-with-Disabilities.png);
+    
+}
+
+.slideimage img{
+    width: 100%;
+}
+/* -------workpage------- */
+ .workdiv{
+    padding: 20px;
+}
+ .workdiv .workp1{
+    font-size: 17px;
+    text-align: center;
+}
+ .workimg{
+    width: 80%;
+    margin: 0 auto;
+}
+.workimg img{
+    width: 100%;
+}
+
+ .workdiv .workp{
+    font-size: 18px;
+}
+.workdiv h2{
+    font-weight: bold;
+    padding: 15px;
+    background-color: #FFAEAE;
+}
+.workdiv .workp .mtavarigamowveva{
+    padding: 20px;
+    background-color: #56BAEC;
+    font-style: italic;
+    line-height: 80px;
+}
+/* --------newspage-------- */
+main .news{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.box{
+    width: 400px;
+    background-color:#fff;
+    border-radius: 5px;
+    box-shadow: 0px 7px 7px #808080;
+    margin: 40px auto;
+    margin-right: 20px;
+    min-height: 800px;
+    overflow: hidden;
+}
+.in span{
+    display: block;
+    margin-top: 20px;
+}
+.box img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0 0 ;
+}
+.box h3{
+    margin-left: 15px;
+}
+.box p{
+    font-size: 16px;
+    line-height: 28px;
+    height: 40%;
+    padding: 0 15px 15px 15px ;
+    overflow: hidden;
+}
+#btn{
+    background-color: #B4D8E7;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 5px;
+    float: right;
+}
+#btn:hover{
+    border: #B4D8E7;
+    background-color: #fff;
+    color: #000000;
+    box-shadow: 0 5px 5px rgb(0, 0, 0, 0.2);
+}
+
+
+/* --------organizationpage---------- */
+.organizationmain p{
+        font-size: 17px;
+}
+ .organizationmain{
+    width: 60%;
+    
+}
+.organizationmain h2{
+    width: 100%;
+}
+.orgimg{
+    width: 300px;
+}
+.orgimg img{
+    width: 100%;
+}
+main .orgimg1{
+    margin-left: 15%;
+ }
+ .bold{
+    font-weight: bold;
+ }
+
+.flex{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+/*--------- projectpage=aboutpage------- */
+ .projectp{
+    color: #000000;
+    text-align: justify;
+}
+ .abouttext .projectp{
+    color: #000000;
+}
+.abouttext h2{
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.abouttext h4{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span.fundamental{
+    color: rgb(195, 56, 18);
+}
+.abouttext p{
+    color:  rgb(207, 75, 38);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background:  rgb(195, 56, 18);
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid rgb(195, 56, 18);
+    cursor: pointer;
+    color: #000000;
+}
+.project2{
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+}
+.project2 h2{
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.project2 h4{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.project2 p{
+    color:  rgb(0, 0, 0);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;  
+}
+.pimg{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.pimimg{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 30px 0;
+}
+.reflect{
+    border-radius: 0 30px;
+}
+.pimimg img{
+    width: 100%;
+}
+
+.projectimage{
+    width: 34%;
+}
+.projectimage img{
+    width: 100%;
+}
+.mainabout{
+    width: 40%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.whythisone{
+    background-color: #FFAEAE;
+    padding: 15px;
+}
+.temebi{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.temebi p{
+    width: 400px;
+    background-color: #FFAEAE;
+    margin-bottom: 30px;
+    padding: 14px;
+}
+.temebi .meore{
+    background-color: #56BAEC;
+}
+/* --------aboutpage---------- */
+main .about{
+    width: 100%;
+    padding: 78px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.mabout{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ .abouttext{
+    width: 800px;
+}
+
+
+/* ---------contactpage ----------*/
+main .contactinfo{
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+.contactinfo p{
+    font-size: 18px;
+}
+
+ 
+ /* ------footer------ */
+ .indexfooter{
+    background-color:  #56BAEC;
+    padding: 50px 0;
+}
+.footerlogo{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.footerlogo img{
+    width: 100%;
+}
+footer a{
+    color: #515654;
+}
+
+footer nav{
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+footer p{
+    color: #ffffff;
+}
+.indexfooter :hover{
+    color: #FFAEAE;
+    text-decoration: none;
+}
+
+/* ------------ responsiv all pages --------------- */
+
+@media only screen and (max-width: 880px) {
+   
+    header ul{
+        width: 90%;
+    }
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .abouttext{
+        width: 300px;
+        text-align: center;
+    }
+    .abouttext h2{
+        font-size: 40px;
+    }
+    .project2 h2{
+        font-size: 40px;
+    }
+    .orgimg{
+        margin: 0 auto;
+    }
+    .mainabout img{
+       width:300px ;
+       margin: 0 auto;
+    }
+    .organizationmain{
+        width: 100%;
+    }
+    header ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+  }
+
